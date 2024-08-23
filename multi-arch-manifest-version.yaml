@@ -1,0 +1,11 @@
+image: 11notes/redis-insight:2.54
+manifests:
+  - image: 11notes/redis-insight:amd64-2.54
+    platform:
+      architecture: amd64
+      os: linux
+  - image: 11notes/redis-insight:arm64v8-2.54
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8

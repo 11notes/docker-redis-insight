@@ -1,0 +1,38 @@
+services:
+  redis:
+    image: "11notes/redis:7.4.0"
+    container_name: "redis"
+    environment:
+      DEBUG: true
+      REDIS_PASSWORD: GreenHorsesRunLikeCheese
+      TZ: Europe/Zurich
+    command:
+      - SET mykey1 myvalue1
+      - SET mykey2 myvalue2
+    volumes:
+      - "redis-etc:/redis/etc"
+      - "redis-var:/redis/var"
+    networks:
+      - "backend"
+    restart: always
+  redis-insight:
+    image: "11notes/redis-insight:2.54"
+    container_name: "redis-insight"
+    environment:
+      TZ: Europe/Zurich
+    ports:
+      - "5540:5540/tcp"
+    volumes:
+      - "redis-insight-var:/redis-insight/var"
+    networks:
+      - "backend"
+      - "frontend"
+    restart: always
+volumes:
+  redis-etc:
+  redis-var:
+  redis-insight-var:
+networks:
+  backend:
+    internal: true
+  frontend:
