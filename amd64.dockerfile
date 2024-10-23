@@ -8,7 +8,7 @@
 
 # :: Build
   FROM 11notes/node:stable as build
-  ENV BUILD_VERSION=2.58
+  ENV BUILD_VERSION=2.58.0
   ENV BUILD_ROOT=/RedisInsight
   ENV BUILD_RELEASE=/opt/redis-insight
 

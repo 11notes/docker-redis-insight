@@ -1,9 +1,9 @@
 ![Banner](https://github.com/11notes/defaults/blob/main/static/img/banner.png?raw=true)
 
 # 🏔️ Alpine - Redis Insight
-![size](https://img.shields.io/docker/image-size/11notes/redis-insight/2.58?color=0eb305) ![version](https://img.shields.io/docker/v/11notes/redis-insight/2.58?color=eb7a09) ![pulls](https://img.shields.io/docker/pulls/11notes/redis-insight?color=2b75d6)
+![size](https://img.shields.io/docker/image-size/11notes/redis-insight/2.58.0?color=0eb305) ![version](https://img.shields.io/docker/v/11notes/redis-insight/2.58.0?color=eb7a09) ![pulls](https://img.shields.io/docker/pulls/11notes/redis-insight?color=2b75d6)
 
-**Redis Insight on the stable node branch based on Alpine*
+**Redis Insight on the stable node branch based on Alpine**
 
 ![Preview](https://github.com/11notes/docker-redis-insight/blob/main/GUI.PNG?raw=true)
 
@@ -33,7 +33,7 @@ services:
       - "backend"
     restart: always
   redis-insight:
-    image: "11notes/redis-insight:2.58"
+    image: "11notes/redis-insight:2.58.0"
     container_name: "redis-insight"
     environment:
       TZ: Europe/Zurich
