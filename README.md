@@ -3,12 +3,12 @@
 # 🏔️ Alpine - Redis Insight
 ![size](https://img.shields.io/docker/image-size/11notes/redis-insight/2.58.0?color=0eb305) ![version](https://img.shields.io/docker/v/11notes/redis-insight/2.58.0?color=eb7a09) ![pulls](https://img.shields.io/docker/pulls/11notes/redis-insight?color=2b75d6)
 
-**Redis Insight on the stable node branch based on Alpine**
+**Manage your Redis databases directly in your browser**
 
 ![Preview](https://github.com/11notes/docker-redis-insight/blob/main/GUI.PNG?raw=true)
 
 # SYNOPSIS
-What can I do with this? Manage all your Redis nodes directly via a web interface.
+**What can I do with this?** Manage all your Redis nodes directly via a web interface. Don’t forget to add authentication to this application because otherwise there is none!
 
 # VOLUMES
 * **/redis-insight/var** - Directory of configuratin files and settings
