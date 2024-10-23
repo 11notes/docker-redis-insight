@@ -1,7 +1,7 @@
 ![Banner](https://github.com/11notes/defaults/blob/main/static/img/banner.png?raw=true)
 
 # 🏔️ Alpine - Redis Insight
-![size](https://img.shields.io/docker/image-size/11notes/redis-insight/2.54?color=0eb305) ![version](https://img.shields.io/docker/v/11notes/redis-insight/2.54?color=eb7a09) ![pulls](https://img.shields.io/docker/pulls/11notes/redis-insight?color=2b75d6) ![stars](https://img.shields.io/docker/stars/11notes/redis-insight?color=e6a50e) [<img src="https://img.shields.io/badge/github-11notes-blue?logo=github">](https://github.com/11notes)
+![size](https://img.shields.io/docker/image-size/11notes/redis-insight/2.58?color=0eb305) ![version](https://img.shields.io/docker/v/11notes/redis-insight/2.58?color=eb7a09) ![pulls](https://img.shields.io/docker/pulls/11notes/redis-insight?color=2b75d6)
 
 **Redis Insight on the stable node branch based on Alpine*
 

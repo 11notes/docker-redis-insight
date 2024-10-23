@@ -16,7 +16,7 @@ services:
       - "backend"
     restart: always
   redis-insight:
-    image: "11notes/redis-insight:2.54"
+    image: "11notes/redis-insight:2.58"
     container_name: "redis-insight"
     environment:
       TZ: Europe/Zurich
