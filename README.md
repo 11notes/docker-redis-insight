@@ -5,6 +5,8 @@
 
 **Redis Insight on the stable node branch based on Alpine*
 
+![Preview](https://github.com/11notes/docker-redis-insight/blob/main/GUI.PNG?raw=true)
+
 # SYNOPSIS
 What can I do with this? Manage all your Redis nodes directly via a web interface.
 
@@ -31,7 +33,7 @@ services:
       - "backend"
     restart: always
   redis-insight:
-    image: "11notes/redis-insight:2.54"
+    image: "11notes/redis-insight:2.58"
     container_name: "redis-insight"
     environment:
       TZ: Europe/Zurich
